@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulyator</title>
+</head>
+
+<body>
+
+
+    <div id="all">
+
+        <form name="form">
+            <input type="text" name="text" id="text">
+        </form>
+
+        <table>
+
+            <tr>
+                <td> <input type="button" class="button" onclick="silmek()" value="C"> </td>
+                <td> <input type="button" class="button" onclick="gerialma()" value="<"> </td>
+                <td> <input type="button" class="button" onclick="test('*')" value="*"> </td>
+                <td> <input type="button" class="button" onclick="test('/')" value="/"> </td>
+            </tr>
+
+            <tr>
+                <td> <input type="button" class="button" onclick="test(7)" value="7"> </td>
+                <td> <input type="button" class="button" onclick="test(8)" value="8"> </td>
+                <td> <input type="button" class="button" onclick="test(9)" value="9"> </td>
+                <td> <input type="button" class="button" onclick="test('-')" value="-"> </td>
+            </tr>
+
+            <tr>
+                <td> <input type="button" class="button" onclick="test(4)" value="4"> </td>
+                <td> <input type="button" class="button" onclick="test(5)" value="5"> </td>
+                <td> <input type="button" class="button" onclick="test(6)" value="6"> </td>
+                <td> <input type="button" class="button" onclick="test('+')" value="+"> </td>
+            </tr>
+
+            <tr>
+                <td> <input type="button" class="button" onclick="test(1)" value="1"> </td>
+                <td> <input type="button" class="button" onclick="test(2)" value="2"> </td>
+                <td> <input type="button" class="button" onclick="test(3)" value="3"> </td>
+                <td rowspan="2"> <input type="button" class="button" onclick="beraberdir()" id="beraber" value="="> </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"> <input type="button" class="button" onclick="test(0)" id="sifir" value="0"> </td>
+                <td> <input type="button" class="button" onclick="test('.')" value="."> </td>
+            </tr>
+
+        </table>
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

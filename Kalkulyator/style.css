@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --tita: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#all {
+    margin: 120px auto;
+    height: auto;
+    width: 400px;
+    background-color: rgb(0, 25, 80);
+    border-radius: 15px;
+    padding: 22px;
+}
+
+.button {
+    padding: 10px;
+    margin: 2px;
+    width: 80px;
+}
+
+#beraber {
+    height: 85px;
+}
+
+#sifir {
+    width: 170px;
+}
+
+#text {
+    width: 338px;
+    position: relative;
+    left: 4px;
+    height: 45px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    outline: none;
+    font-family: var(--tita);
+    font-size: larger;
+    text-align: 25px;
+}
